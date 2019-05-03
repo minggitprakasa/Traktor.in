@@ -1,9 +1,13 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab Two
+  <ion-toolbar color ="primary">
+    <ion-title  text-center >
+      Search
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <ion-searchbar [(ngModel)]="terms"></ion-searchbar>
+  <button ion-button type="button" (click)="sort()">Sort</button>
+
+</ion-content>
