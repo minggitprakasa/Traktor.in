@@ -32,6 +32,22 @@ const routes: Routes = [
         loadChildren: './tab1/sharing/sharing.module#SharingPageModule'
       },
       {
+        path: 'tab1/analisis/olahtanah',
+        loadChildren: './Analisispage/olahtanah/olahtanah.module#OlahtanahPageModule'
+      },
+      {
+        path: 'tab1/analisis/irigasi',
+        loadChildren: './Analisispage/irigasi/irigasi.module#IrigasiPageModule'
+      },
+      {
+        path: 'tab1/analisis/panen',
+        loadChildren: './Analisispage/panen/panen.module#PanenPageModule'
+      },
+      {
+        path: 'tab1/analisis/penggilingan',
+        loadChildren: './Analisispage/penggilingan/penggilingan.module#PenggilinganPageModule'
+      },
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'
