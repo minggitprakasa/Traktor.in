@@ -1,5 +1,7 @@
 {
   "name": "Traktor",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

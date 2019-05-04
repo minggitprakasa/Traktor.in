@@ -10,5 +10,36 @@
 <ion-content>
     <ion-card-header>
         <img src="/assets/img/tanah.png">
-    </ion-card-header>
-</ion-content>
+    </ion-card-header>  <ion-grid>
+        <ion-row>
+          <ion-col>
+              <ion-list text-center>
+                <ion-label>Jenis Tanah</ion-label>
+                <ion-card style="height: 49px;">
+                    <ion-select value="Regosol">
+                        <ion-select-option value="Regosol">Regosol</ion-select-option>
+                        <ion-select-option value="Litosol">Litosol</ion-select-option>
+                        <ion-select-option value="Latosol">Latosol</ion-select-option>
+                        <ion-select-option value="Organosol">Organosol</ion-select-option>
+                    </ion-select>
+                </ion-card>
+              </ion-list>
+            </ion-col>
+            <ion-col>
+            <ion-list text-center>
+                <ion-label>Luas Tanah</ion-label>
+                <ion-card>
+                    <ion-item>
+                        <ion-input type="number" min="0"></ion-input>
+                        <ion-label position="left">m2</ion-label>
+                    </ion-item>
+                </ion-card>
+            </ion-list>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-content>
+    
+    <ion-footer>
+        <ion-button position="bottom" expand="block">Analisa</ion-button>
+    </ion-footer>
