@@ -1,0 +1,121 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start" href="/tabs/tab1/irigasi">
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
+    <ion-title>Analisis Irigasi</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content style="align-self: auto; text-align: start;">
+  <table>
+    <ion-card>
+    <tr>
+      <ion-card-header>
+        <img src="/assets/img/Traktor-Tangan-Yanmar.jpeg">
+      </ion-card-header>
+      <br>
+    </tr>
+    <br>
+    <tr>
+      <td>
+          <b>Quick Tractor</b> <br>
+          <i>Quick</i>
+      </td>
+      <td>
+          <ion-button fill="outline">Detail</ion-button>
+      </td>
+    </tr>
+    </ion-card>
+  </table>
+  <!-- <ion-slide>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-card>
+              <img src="/assets/img/Traktor-Tangan-Yanmar.jpeg">
+          </ion-card>
+        </ion-col>
+        <ion-col>
+            <ion-card>
+                <img src="/assets/img/Traktor-Tangan-Yanmar.jpeg">
+            </ion-card>
+        </ion-col>
+        <ion-col>
+        <ion-card>
+                  <img src="/assets/img/Traktor-Tangan-Yanmar.jpeg">
+              </ion-card>
+            </ion-col>
+            <ion-col>
+                <ion-card>
+                    <img src="/assets/img/Traktor-Tangan-Yanmar.jpeg">
+                </ion-card>
+              </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-slide> -->
+  <ion-slides [options]="sliderConfig">
+      <ion-slide>
+        <div>
+          <ion-card>
+            <ion-card-header>
+              <ion-card-title>
+                Quick
+              </ion-card-title>
+              <ion-card-content>
+                <img src="/assets/img/Traktor-Tangan-Yanmar.jpeg">
+                <ion-button fill="outline">Detail</ion-button>
+              </ion-card-content>
+            </ion-card-header>
+          </ion-card>
+        </div>
+      </ion-slide>
+      <ion-slide>
+          <div>
+            <ion-card>
+              <ion-card-header>
+                <ion-card-title>
+                  Quick
+                </ion-card-title>
+                <ion-card-content>
+                  <img src="/assets/img/Traktor-Tangan-Yanmar.jpeg">
+                  <ion-button fill="outline">Detail</ion-button>
+                </ion-card-content>
+              </ion-card-header>
+            </ion-card>
+          </div>
+        </ion-slide>
+        <ion-slide>
+            <div>
+              <ion-card>
+                <ion-card-header>
+                  <ion-card-title>
+                    Quick
+                  </ion-card-title>
+                  <ion-card-content>
+                    <img src="/assets/img/Traktor-Tangan-Yanmar.jpeg">
+                    <ion-button  fill="outline">Detail</ion-button>
+                  </ion-card-content>
+                </ion-card-header>
+              </ion-card>
+            </div>
+          </ion-slide>
+          <ion-slide>
+              <div>
+                <ion-card>
+                  <ion-card-header>
+                    <ion-card-title>
+                      Quick
+                    </ion-card-title>
+                    <ion-card-content>
+                      <img src="/assets/img/Traktor-Tangan-Yanmar.jpeg">
+                      <ion-button fill="outline">Detail</ion-button>
+                    </ion-card-content>
+                  </ion-card-header>
+                </ion-card>
+              </div>
+            </ion-slide>
+    </ion-slides>
+
+
+</ion-content>

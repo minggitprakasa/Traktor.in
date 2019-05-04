@@ -48,6 +48,10 @@ const routes: Routes = [
         loadChildren: '../Analisispage/penggilingan/penggilingan.module#PenggilinganPageModule'
       },
       {
+        path: 'tab1/analisis/irigasi/detail',
+        loadChildren: '../analisis-detail/analisis-detail.module#AnalisisDetailPageModule'
+      },
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'

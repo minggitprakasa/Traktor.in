@@ -9,7 +9,8 @@ const routes: Routes = [
   { path: 'olahtanah', loadChildren: './Analisispage/olahtanah/olahtanah.module#OlahtanahPageModule' },
   { path: 'panen', loadChildren: './Analisispage/panen/panen.module#PanenPageModule' },
   { path: 'irigasi', loadChildren: './Analisispage/irigasi/irigasi.module#IrigasiPageModule' },
-  { path: 'penggilingan', loadChildren: './Analisispage/penggilingan/penggilingan.module#PenggilinganPageModule' }
+  { path: 'penggilingan', loadChildren: './Analisispage/penggilingan/penggilingan.module#PenggilinganPageModule' },
+  { path: 'analisis-detail', loadChildren: './analisis-detail/analisis-detail.module#AnalisisDetailPageModule' }
 ];
 @NgModule({
   imports: [
