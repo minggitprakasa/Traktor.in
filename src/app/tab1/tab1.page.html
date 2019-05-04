@@ -7,18 +7,22 @@
 </ion-header>
 
 <ion-content class="card-background-page">
-  <ion-card>
-    <img src="../assets/img/Untitled-1.png"/>
-    <div class="card-title">Analisis</div>
-  </ion-card>
-
-  <ion-card>
-    <img src="../assets/img/Untitled-2.png"/>
-    <div class="card-title">Monitoring</div>
-  </ion-card>
-
-  <ion-card>
-    <img src="../assets/img/Untitled-3.png"/>
-    <div class="card-title">Sharing</div>
-  </ion-card>
+    <div (click)="analisisTab()">
+    <ion-card>
+        <img src="../assets/img/Untitled-1.png"/>
+        <div class="card-title">Analisis</div>
+    </ion-card>
+    </div>
+    <div (click)="monitoringTab()">
+      <ion-card>
+        <img src="../assets/img/Untitled-2.png"/>
+        <div class="card-title">Monitoring</div>
+      </ion-card>
+    </div>
+    <div (click)="SharingTab()">
+      <ion-card>
+        <img src="../assets/img/Untitled-3.png"/>
+        <div class="card-title">Sharing</div>
+      </ion-card>
+    </div>
 </ion-content>

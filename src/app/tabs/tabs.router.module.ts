@@ -9,30 +9,27 @@ const routes: Routes = [
     children: [
       {
         path: 'tab1',
-        children: [
-          {
-            path: '',
-            loadChildren: '../tab1/tab1.module#Tab1PageModule'
-          }
-        ]
+        loadChildren: '../tab1/tab1.module#Tab1PageModule'
       },
       {
         path: 'tab2',
-        children: [
-          {
-            path: '',
-            loadChildren: '../tab2/tab2.module#Tab2PageModule'
-          }
-        ]
+        loadChildren: '../tab2/tab2.module#Tab2PageModule'
       },
       {
         path: 'tab3',
-        children: [
-          {
-            path: '',
-            loadChildren: '../tab3/tab3.module#Tab3PageModule'
-          }
-        ]
+        loadChildren: '../tab3/tab3.module#Tab3PageModule'
+      },
+      {
+        path: 'tab1/analisis',
+        loadChildren: './tab1/analisis/analisis.module#AnalisisPageModule'
+      },
+      {
+        path: 'tab1/monitoring',
+        loadChildren: './tab1/monitoring/monitoring.module#MonitoringPageModule'
+      },
+      {
+        path: 'tab1/sharing',
+        loadChildren: './tab1/sharing/sharing.module#SharingPageModule'
       },
       {
         path: '',
