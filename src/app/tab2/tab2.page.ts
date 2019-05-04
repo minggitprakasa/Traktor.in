@@ -13,7 +13,7 @@ export class Tab2Page {
   }
 
   setItems() {
-    this.items = ['Orange', 'Banana', 'Pear', 'Tomato', 'Grape', 'Apple', 'Cherries', 'Cranberries', 'Raspberries', 'Strawberries', 'Watermelon'];
+    this.items = ['Petani', 'Lahan', 'Padi', 'Traktor', 'Hortikultura', 'Harga', 'Panen', 'Pupuk'];
   }
 
   filterItems(ev: any) {

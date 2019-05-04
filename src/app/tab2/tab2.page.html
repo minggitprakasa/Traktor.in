@@ -10,34 +10,7 @@
   <ion-toolbar no-border-top>
     <ion-searchbar placeholder="Penelusuran" (ionInput)="filterItems($event)"></ion-searchbar>
   </ion-toolbar>
-  <!-- <ion-grid>
-    <ion-row>
-        <ion-col >
-          <ion-card text-align="center">
-            <div align="center">
-              <ion-avatar>
-                  <img src="/assets/img/img_index_04.jpg" style="text-align: center">
-              </ion-avatar>
-            </div>
-            <div class="ion-text-center">
-              Traktor
-            </div>
-          </ion-card>
-        </ion-col>
-        <ion-col >
-          <ion-card text-align="center">
-            <div align="center">
-              <ion-avatar>
-                  <img src="/assets//img/Zena-Rotary.jpg" style="text-align: center">
-              </ion-avatar>
-            </div>
-            <div class="ion-text-center">
-              Traktor Tangan
-            </div>
-          </ion-card>
-        </ion-col>
-    </ion-row>
-  </ion-grid> -->
+  
   <ion-list>
     <ion-item *ngFor="let item of items">
       {{item}}
