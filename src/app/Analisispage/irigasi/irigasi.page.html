@@ -11,4 +11,36 @@
   <ion-card-header>
       <img src="/assets/img/irigasi.png">
   </ion-card-header>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+          <ion-list text-center>
+            <ion-label>Sumber Air</ion-label>
+            <ion-card style="height: 49px;">
+                <ion-select value="sungai">
+                    <ion-select-option value="sumur">Sumur</ion-select-option>
+                    <ion-select-option value="sungai">Sungai</ion-select-option>
+                    <ion-select-option value="pdam">Air PDAM</ion-select-option>
+                    <ion-select-option value="hujan">Tadah Hujan</ion-select-option>
+                </ion-select>
+            </ion-card>
+          </ion-list>
+        </ion-col>
+        <ion-col>
+        <ion-list text-center>
+            <ion-label>Luas Lahan</ion-label>
+            <ion-card>
+                <ion-item>
+                    <ion-input type="number" min="0"></ion-input>
+                    <ion-label position="left">m2</ion-label>
+                </ion-item>
+            </ion-card>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
+
+<ion-footer>
+    <ion-button position="bottom" expand="block">Analisa</ion-button>
+</ion-footer>
