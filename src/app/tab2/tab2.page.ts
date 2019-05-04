@@ -13,7 +13,7 @@ export class Tab2Page {
   }
 
   setItems() {
-    this.items = ['Petani', 'Lahan', 'Padi', 'Traktor', 'Hortikultura', 'Harga', 'Panen', 'Pupuk'];
+    this.items = ['Petani', 'Lahan', 'Padi', 'Traktor', 'Hortikultura', 'Harga', 'Panen', 'Pupuk', 'Air', 'Hujan', 'Sawah'];
   }
 
   filterItems(ev: any) {
