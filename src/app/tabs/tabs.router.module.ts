@@ -21,31 +21,31 @@ const routes: Routes = [
       },
       {
         path: 'tab1/analisis',
-        loadChildren: './tab1/analisis/analisis.module#AnalisisPageModule'
+        loadChildren: '../tab1/analisis/analisis.module#AnalisisPageModule'
       },
       {
         path: 'tab1/monitoring',
-        loadChildren: './tab1/monitoring/monitoring.module#MonitoringPageModule'
+        loadChildren: '../tab1/monitoring/monitoring.module#MonitoringPageModule'
       },
       {
         path: 'tab1/sharing',
-        loadChildren: './tab1/sharing/sharing.module#SharingPageModule'
+        loadChildren: '../tab1/sharing/sharing.module#SharingPageModule'
       },
       {
         path: 'tab1/analisis/olahtanah',
-        loadChildren: './Analisispage/olahtanah/olahtanah.module#OlahtanahPageModule'
+        loadChildren: '../Analisispage/olahtanah/olahtanah.module#OlahtanahPageModule'
       },
       {
         path: 'tab1/analisis/irigasi',
-        loadChildren: './Analisispage/irigasi/irigasi.module#IrigasiPageModule'
+        loadChildren: '../Analisispage/irigasi/irigasi.module#IrigasiPageModule'
       },
       {
         path: 'tab1/analisis/panen',
-        loadChildren: './Analisispage/panen/panen.module#PanenPageModule'
+        loadChildren: '../Analisispage/panen/panen.module#PanenPageModule'
       },
       {
         path: 'tab1/analisis/penggilingan',
-        loadChildren: './Analisispage/penggilingan/penggilingan.module#PenggilinganPageModule'
+        loadChildren: '../Analisispage/penggilingan/penggilingan.module#PenggilinganPageModule'
       },
       {
         path: '',
