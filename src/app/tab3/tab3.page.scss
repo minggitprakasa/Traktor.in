@@ -1,3 +1,16 @@
-.coba{
-background-color: #0EAC7E;
-}
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;  
+  }
+  
+  .th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .tr:nth-child(even) {
+    background-color: #dddddd;
+  }
